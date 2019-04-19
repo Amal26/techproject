@@ -17,9 +17,9 @@ class App extends Component {
         <div className="App">
           <Navbar title= "Forever21" />
         <Route exact path= "/" render = {() => <Home title = "Forever21" />} />
-        <Route path = "/actors" component = {Billing}/>
-        <Route path = "/actress" component = {Review}/>
-        <Route path = "/films" component = {Complete}/>
+        <Route path = "/billing" component = {Billing}/>
+        <Route path = "/review" component = {Review}/>
+        <Route path = "/complete" component = {Complete}/>
         </div>
         </BrowserRouter>
 
